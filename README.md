@@ -13,6 +13,9 @@ To complete above steps, the following plug-ins/libraries are required:
 
 1) Praat: Vocal toolkit:http://www.praatvocaltoolkit.com/
 2) R: a) fda: https://cran.r-project.org/web/packages/fda/index.html
+
       b) PraatR: http://www.aaronalbin.com/praatr/index.html
+
       c) fda.usc: https://cran.r-project.org/web/packages/fda.usc/index.html
+      
       d) tidyverse: https://www.tidyverse.org/
