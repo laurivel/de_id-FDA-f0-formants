@@ -1,13 +1,14 @@
 # de_id-FDA-f0-formants
-This repository contains R and Praat scripts used in the paper "Improving speaker de-identification with functional data analysis of f0 trajectories".
+This repository contains R and Praat scripts used in the paper "Improving speaker de-identification with functional data analysis of f0 trajectories" (Tavi, Kinnunen and Gonzalez-Hautamäki, 2021).
 
-These scripts perform fda for chosen speech signals and de-identify them using fda-based pitch manipulation and simple formant shifts. The following steps are required to perform de-identification:
+The scripts perform functional data analysis for chosen speech signals and de-identify them using fda-based pitch manipulation and simple formant shifts. The following steps are required to perform de-identification:
 
-1) Collect f0 trajectories using a Praat script
-2) Adjust and run R scripts () in order to create fCPAs and collect coefficients for manipulated f0 trajectories
-3) Manipulate f0 trajectories using Praat script
-4) Finally, modify formants using Praat script
+1) Collect f0 trajectories using XXX. The f0 trajectories must ne collected from de-identified and modelling signals.
+2) Adjust and run XXX in order to create fCPAs and collect coefficients for manipulated f0 trajectories. The type of modelling signals will affect the quality of de-identified signals.
+3) Manipulate f0 trajectories using XXX.
+4) Finally, modify formants using XXX. You can try different coefficients for the amount of formant shift.
 
+For further details, please see the paper (Tavi, Kinnunen and Gonzalez-Hautamäki, 2021).
 
 To complete above steps, the following plug-ins/libraries are required:
 
