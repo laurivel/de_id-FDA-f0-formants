@@ -5,10 +5,10 @@ The scripts perform functional data analysis for chosen speech signals and de-id
 
 The following steps are required to perform de-identification:
 
-1) Collect f0 trajectories using XXX. The f0 trajectories must ne collected from de-identified and modelling signals.
-2) Adjust and run XXX in order to create fCPAs and collect coefficients for manipulated f0 trajectories. The type of modelling signals will affect the quality of de-identified signals.
-3) Manipulate f0 trajectories using XXX.
-4) Finally, modify formants using XXX. You can try different coefficients for the amount of formant shift.
+1)  Adjust and run f0s_fda.R to collect f0 trajectories and to convert them to functional objects. The f0 trajectories must ne collected from de-identified and modelling signals.
+2) Adjust and run and fPCA_data_points.R in order to create fCPAs and collect coefficients for manipulated f0 trajectories. The type of modelling signals will affect the quality of de-identified signals.
+3) Manipulate f0 trajectories using manipulate_pitch_final.praat.
+4) Finally, modify formants using formant_shift.praat. You can try different coefficients for the amount of formant shift.
 
 For further details, please see the paper (Tavi, Kinnunen and Gonzalez-Hautamäki, 2021).
 
