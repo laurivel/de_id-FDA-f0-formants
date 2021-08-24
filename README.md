@@ -22,3 +22,4 @@ To complete above steps, the following plug-ins/libraries are required:
       c) fda.usc: https://cran.r-project.org/web/packages/fda.usc/index.html
       
       d) tidyverse: https://www.tidyverse.org/
+3) YOUR DATA
